@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Textarea</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form>
+      <h2>Formulario de contacto</h2>
+      <fieldset>
+        <legend>INFORMACIÓN BÁSICA</legend>
+        <div class="form_input">
+          <label for="Nombre">Nombre completo</label>
+          <input type="text" placeholder="Jhon Doe" id="Nombre" />
+        </div>
+        <div class="form_input">
+          <label for="email">Email</label>
+          <input type="email" placeholder="ejemplo@gmail.com" id="email" />
+        </div>
+        <div class="form_input">
+          <label for="Asunto">Asunto</label>
+          <input
+            type="email"
+            placeholder="El asunto de tu mensaje"
+            id="Asunto"
+          />
+        </div>
+      </fieldset>
+      <div class="form_input">
+        <label
+          >Tipo de usuario
+          <select name="type-of-user">
+            <option></option>
+            <option value="user1">Seguidor/a</option>
+            <option value="user2">Empresa</option>
+            <option value="user3">Otros</option>
+          </select>
+        </label>
+      </div>
+      <div class="form_input">
+        <label
+          >Tipo de usuario
+          <input list="referente" name="referente" />
+          <datalist id="referente" name="type-of-user">
+            <option value="Soy dalto">Un creador de contenido</option>
+            <option value="Una empresa"></option>
+            <option value="Un amigo"></option>
+          </datalist>
+        </label>
+      </div>
+      <div class="form_input">
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          rows="8"
+          placeholder="Dejá tu mensaje..."
+          id="mensaje"
+        ></textarea>
+      </div>
+      <div class="form_input">
+        <label
+          >Acepto los
+          <a href="terms.html" target="_blank">terminos y condiciones</a>
+          <input type="checkbox" class="checkbox" />
+        </label>
+      </div>
+    </form>
+  </body>
+</html>

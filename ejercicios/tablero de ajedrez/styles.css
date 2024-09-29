@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.flexbox {
+  width: 800px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.borde {
+  margin: auto;
+  width: 800px;
+  height: 800px;
+  outline: 20px solid brown;
+}
+
+.flexbox:first-child {
+  margin-top: 100px;
+}
+
+.flex-item {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.flex-item:nth-child(2n) {
+  background-color: white;
+}
+
+.flexbox:nth-child(2n) {
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,4 @@
+las etiquetas que el navegador filtra para la busqueda
+title
+h1
+strong

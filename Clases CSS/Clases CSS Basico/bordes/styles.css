@@ -1,0 +1,13 @@
+body {
+  background: black;
+}
+
+input {
+  background: transparent;
+  border: none;
+  color: mediumspringgreen;
+  border-bottom: 1px solid mediumspringgreen;
+  border-radius: 4px;
+  padding: 9px;
+  margin: 5px;
+}

@@ -1,0 +1,31 @@
+section .excluir1,
+section .excluir2 {
+  color: red;
+}
+
+section :where(.excluir1, .excluir2) {
+  color: blue;
+}
+
+ul:has(+ div) {
+  color: blue;
+}
+
+label {
+  font-weight: bold;
+}
+
+label:has(input:invalid) {
+  color: red;
+}
+label:has(input:valid) {
+  color: green;
+}
+
+input:invalid {
+  color: inherit;
+}
+
+input:valid {
+  color: inherit;
+}
